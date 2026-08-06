@@ -1,0 +1,77 @@
+<title>Songwright — Support</title>
+<style>
+  :root {
+    --bg: #faf9f7;
+    --panel: #ffffff;
+    --ink: #1e1c22;
+    --sub: #5c5866;
+    --accent: #7a3fb0;
+    --border: rgba(30,28,34,0.10);
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #17151c; --panel: #201d27; --ink: #f0eef4; --sub: #a8a3b3; --accent: #b98af0; --border: rgba(255,255,255,0.10); }
+  }
+  :root[data-theme="dark"] { --bg: #17151c; --panel: #201d27; --ink: #f0eef4; --sub: #a8a3b3; --accent: #b98af0; --border: rgba(255,255,255,0.10); }
+  :root[data-theme="light"] { --bg: #faf9f7; --panel: #ffffff; --ink: #1e1c22; --sub: #5c5866; --accent: #7a3fb0; --border: rgba(30,28,34,0.10); }
+
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--ink);
+    font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", system-ui, sans-serif;
+    line-height: 1.6;
+  }
+  .wrap { max-width: 640px; margin: 0 auto; padding: 56px 24px 80px; }
+  h1 { font-size: 1.6rem; font-weight: 800; margin: 0 0 6px; letter-spacing: -0.01em; text-wrap: balance; }
+  .lede { color: var(--sub); margin: 0 0 40px; }
+  h2 { font-size: 1.05rem; font-weight: 700; margin: 36px 0 10px; color: var(--accent); }
+  p { margin: 0 0 14px; max-width: 62ch; }
+  .contact {
+    background: var(--panel);
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    padding: 20px 24px;
+    margin-bottom: 8px;
+  }
+  .contact a { font-size: 1.05rem; font-weight: 600; }
+  a { color: var(--accent); }
+  ul { margin: 0 0 14px; padding-left: 1.3em; }
+  li { margin-bottom: 8px; }
+  footer {
+    margin-top: 48px;
+    padding-top: 20px;
+    border-top: 1px solid var(--border);
+    color: var(--sub);
+    font-size: 0.85rem;
+  }
+</style>
+
+<div class="wrap">
+  <h1>Songwright — Support</h1>
+  <p class="lede">A songwriter's toolkit: dictionary, rhymes, thesaurus, circle of fifths, chord analyzer, chord charts, mood-based progressions, a guitar tuner, and quick song-idea capture — all on-device.</p>
+
+  <div class="contact">
+    <p style="margin-bottom: 4px; color: var(--sub); font-size: 0.9rem;">Need help, found a bug, or have a feature request?</p>
+    <a href="mailto:mstanford01@gmail.com">mstanford01@gmail.com</a>
+  </div>
+
+  <h2>Common questions</h2>
+
+  <p><strong>Why didn't a word show up in the dictionary, rhymes, or thesaurus?</strong><br>
+  Songwright's word data comes from WordNet and the CMU Pronouncing Dictionary, both bundled on your device. They cover a very large vocabulary, but very new slang, proper nouns, or obscure terms may not be included yet.</p>
+
+  <p><strong>The tuner isn't picking up my guitar — what should I check?</strong><br>
+  Make sure Songwright has microphone access (Settings → Songwright → Microphone), play a single string cleanly, and try to reduce background noise. The tuner needs a moment to lock onto a steady pitch.</p>
+
+  <p><strong>Where are my song ideas and recordings stored?</strong><br>
+  Entirely on your device — Songwright has no account system and no server. Nothing you write or record leaves your phone.</p>
+
+  <p><strong>Does Songwright work without an internet connection?</strong><br>
+  Yes. Every feature — dictionary, rhymes, thesaurus, chord tools, tuner, and idea capture — works fully offline.</p>
+
+  <h2>Something else?</h2>
+  <p>Email <a href="mailto:mstanford01@gmail.com">mstanford01@gmail.com</a> with what you're seeing (and a screenshot, if it's visual) and I'll get back to you.</p>
+
+  <footer>Songwright is an independent app, built and supported by one person.</footer>
+</div>
